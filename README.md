@@ -58,7 +58,7 @@ pip install py-kaldi-asr py-nltools
 ```
 
 
-#Running examples:
+# Running examples:
 
 1. Decode microphone input in real time:
 ```bash
@@ -72,7 +72,7 @@ python kaldi_decode_wav.py -m PATH_TO_MODEL input.wav
 Change input.wav to whichever file you want to decode. If the file is not in the current folder, provide a full path to the file. THe wav file must be single chanel 16 bit.
 
 
-#Further training
+# Further training
 
 TO adapt the model or train another one refer to Zamia-speech project.https://github.com/gooofy/zamia-speech
 It is much easier than using plain Kaldi but it is still not beginner friendly. 
