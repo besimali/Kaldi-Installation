@@ -53,7 +53,7 @@ ln -s /usr/include/x86_64-linux-gnu/atlas /usr/include/atlas
 
 5. Install python dependencies (best under a python3 virtual env):
 ```bash
-pip install numpy nltk cython
+pip install wheel numpy nltk cython
 pip install py-kaldi-asr py-nltools
 ```
 
