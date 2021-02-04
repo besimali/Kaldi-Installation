@@ -73,12 +73,12 @@ pip install py-kaldi-asr py-nltools
 
 1. Decode microphone input in real time:
 ```bash
-python kaldi_decode_live.py -m PATH_TO_MODEL
+python3 kaldi_decode_live.py -m PATH_TO_MODEL
 ```
 
 2. Decode a wav file:
 ```bash
-python kaldi_decode_wav.py -m PATH_TO_MODEL input.wav
+python3 kaldi_decode_wav.py -m PATH_TO_MODEL input.wav
 ```
 Change input.wav to whichever file you want to decode. If the file is not in the current folder, provide a full path to the file. THe wav file must be single chanel 16 bit.
 
