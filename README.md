@@ -56,6 +56,17 @@ ln -s /usr/include/x86_64-linux-gnu/atlas /usr/include/atlas
 pip install wheel numpy nltk cython
 pip install py-kaldi-asr py-nltools
 ```
+6. If you encounter an error about the atlas package, do this:
+
+	- create a file named atlas.pc under /usr/lib/pkgconfig
+	-write following data inside(paths may differ on your system - check if the path exists):
+    ```bash
+		Name: atlas
+		Version: 3.10.3
+		Description: Debug information for package atlas
+		Cflags: -I/usr/include/x86_64-linux-gnu/atlas
+		Libs: -L/usr/include/x86_64-linux-gnu/atlas
+	```
 
 
 # Running examples:
